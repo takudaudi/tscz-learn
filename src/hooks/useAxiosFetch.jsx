@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const useAxiosFetch = () => {
   const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3001', // TODO : Replace with base URL
+    baseURL: 'http://https://tscz-learn-server.onrender.com', // TODO : Replace with base URL
   });
 
   useEffect(() => {

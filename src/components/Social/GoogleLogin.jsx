@@ -23,7 +23,7 @@ const GoogleLogin = () => {
                     };
 
                     if (user.email && user.displayName) {
-                        return axios.post('http://localhost:3001/new-user', userImp)
+                        return axios.post('http://https://tscz-learn-server.onrender.com/new-user', userImp)
                             .then(() => {
                                 navigate('/');
                                 return 'Registration successful!';

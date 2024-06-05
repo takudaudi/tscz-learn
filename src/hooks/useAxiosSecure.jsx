@@ -8,7 +8,7 @@ const useAxiosSecure = () => {
   const navigate = useNavigate();
 
   const axiosSecure = axios.create({
-    baseURL: 'http://localhost:3001',
+    baseURL: 'http://https://tscz-learn-server.onrender.com',
   });
 
   useEffect(() => {
