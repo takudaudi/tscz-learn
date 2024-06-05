@@ -66,7 +66,7 @@ const EnrolledClasses = () => {
     const handlelessonClick = ( prerequisites) => {
         setPopupLink("https://tscz-group-saves.vercel.app/");
         setPopupPrerequisites(`
-            - An account at tscz-group.vercel.app
+            - An account at tscz-.vercel.app
             - A highway code from the closest TSCZ branch (to see branches, check out www.trafficsafety.co.zw)
             - A notebook
         `);
