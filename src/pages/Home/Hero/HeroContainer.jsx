@@ -33,10 +33,10 @@ const HeroContainer = () => {
                 }}
             >
                 <SwiperSlide>
-                    <Hero />
+                    <Hero2 />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Hero2 />
+                    <Hero />
                 </SwiperSlide>
             </Swiper>
 

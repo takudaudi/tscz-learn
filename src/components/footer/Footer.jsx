@@ -23,7 +23,7 @@ const Footer = () => {
                             />
 
                             <button
-                                className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-secondary dark: px-5 py-3 text-sm font-medium text-white transition hover:bg-opacity-60"
+                                className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-green dark: px-5 py-3 text-sm font-medium text-white transition hover:bg-opacity-60"
                             >
                                 Subscribe
                             </button>
@@ -37,7 +37,7 @@ const Footer = () => {
 
                         <div className="mt-6 flex justify-center gap-4 lg:justify-start">
                             <a
-                                className="text-secondary dark:text-white dark:hover:text-secondary transition hover:text-secondary dark:/75"
+                                className="text-secondary dark:text-white dark:hover:text-secondary transition hover:text-green  dark:/75"
                                 href=""
                                 target="_blank"
                                 rel="noreferrer"

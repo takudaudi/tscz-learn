@@ -40,7 +40,7 @@ const Register = () => {
 
                             if (user.email && user.displayName) {
                                 return axios
-                                    .post('https://tscz-learn-server.onrender.com/new-user', userImp)
+                                    .post('http://localhost:3001/new-user', userImp)
                                     .then(() => {
                                         navigate('/');
                                         return 'Registration successful!';
@@ -150,17 +150,17 @@ const Register = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="photoUrl" className="block text-gray-700 font-bold mb-2">
+                            <label htmlFor="photo" className="block text-gray-700 font-bold mb-2">
                                 <AiOutlinePicture className="inline-block mr-2 mb-1 text-lg" />
-                                Photo URL
+                                Photo
                             </label>
                             <input
-                                placeholder="Photo URL"
-                                type="text"
-                                {...register('photoUrl')}
-                                className="w-full border border-gray-300 rounded-md py-2 px-4 focus:outline-none focus:ring focus:border-blue-300"
+                                type="file"
+                                accept="image/*"
+                                {...register('photo')}
+                                className="w-full py-2 px-4 focus:outline-none focus:ring focus:border-blue-300"
                             />
-                        </div>
+                            </div>
                     </div>
                         <div className="">
                             <label htmlFor="gender" className="block text-gray-700 font-bold mb-2">

@@ -20,7 +20,7 @@ const adminNavItems = [
     { to: "/dashboard/admin-home", icon: <BiHomeAlt className="text-2xl" />, label: "Dashboard Home" },
     { to: "/dashboard/manage-users", icon: <FaUsers className="text-2xl" />, label: "Manage Users" },
     { to: "/dashboard/manage-class", icon: <BsFillPostcardFill className="text-2xl" />, label: "Manage Class" },
-    { to: "/dashboard/manage-applications", icon: <TbBrandAppleArcade className="text-2xl" />, label: "Applications" },
+    // { to: "/dashboard/manage-applications", icon: <TbBrandAppleArcade className="text-2xl" />, label: "Applications" },
 ];
 const instructorNavItem = [
     { to: "/dashboard/instructor-cp", icon: <FaHome className="text-2xl" />, label: "Home" },
@@ -39,8 +39,8 @@ const student = [
 const lastMenuItems = [
     { to: "/", icon: <BiHomeAlt className="text-2xl" />, label: "Main Home" },
     // { to: "/browse", icon: <MdExplore className="text-2xl" />, label: "Browse" },
-    { to: "/trending", icon: <MdOfflineBolt className="text-2xl" />, label: "Trending" },
-    { to: "/browse", icon: <GiFigurehead className="text-2xl" />, label: "Following" },
+    // { to: "/trending", icon: <MdOfflineBolt className="text-2xl" />, label: "Trending" },
+    // { to: "/browse", icon: <GiFigurehead className="text-2xl" />, label: "Following" },
 ];
 
 
@@ -100,7 +100,7 @@ const DashboardLayout = () => {
             >
                 <div className="flex gap-x-4 items-center">
                     <img
-                        src='/yoga-logo.png'
+                        src='/tscz-logo.png'
                         onClick={() => setOpen(!open)}
                         className={`cursor-pointer h-[40px] duration-500 ${open && "rotate-[360deg]"
                             }`}

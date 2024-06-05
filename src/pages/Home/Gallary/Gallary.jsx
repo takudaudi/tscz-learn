@@ -7,7 +7,7 @@ const Gallary = () => {
     <div className="md:w-[80%] mx-auto my-28">
       <div className=" mb-16">
         <h1 className="text-5xl font-bold text-center">
-          Our <span className="text-secondary"></span> Gallary
+          Our <span className="text-secondary"></span> Gallery
         </h1>
       </div>
       <div className="md:grid grid-cols-2 items-center justify-center border gap-4">

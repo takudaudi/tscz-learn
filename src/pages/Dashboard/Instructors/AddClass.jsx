@@ -145,16 +145,16 @@ const AddClass = () => {
                     </div>
                 </div>
                 <div className="mb-6">
-                    <label className="block text-gray-700 font-bold mb-2" htmlFor="price">
-                        Youtube Link
+                    <label className="block text-gray-700 font-bold mb-2" htmlFor="mLink">
+                        lesson Link
                     </label>
-                    <p className='text-[12px] my-2 mt-2 text-secondary'>Only youtube videos are support</p>
+                    <p className='text-[12px] my-2 mt-2 text-secondary'>Only TSCZ-Meet support</p>
                     <input
                         required
                         className="w-full border-secondary px-4 py-2 border rounded-md focus:outline-none focus:ring-blue-500"
                         type="text"
-                        placeholder='Your course intro video link'
-                        name='videoLink'
+                        placeholder='Your course intro meeting link'
+                        name='mLink'
                     />
                 </div>
                 <div className="mb-6">

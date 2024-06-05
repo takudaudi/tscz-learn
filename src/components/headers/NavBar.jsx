@@ -135,7 +135,7 @@ const NavBar = () => {
                     {/* Logo */}
                     <div onClick={() => navigate('/')} className="flex-shrink-0 cursor-pointer pl-7 md:p-0 flex items-center">
                         <div className={``}>
-                            <h1 className='text-2xl font-Cinzel  inline-flex gap-3  items-center font-bold'>TSCZ LEARN <img src="/yoga-logo.png" alt="" className='w-8 h-8' /></h1>
+                            <h1 className='text-2xl font-Cinzel  inline-flex gap-3  items-center font-bold'>TSCZ LEARN <img src="/tscz-logo.png" alt="" className='w-8 h-8' /></h1>
                             <p className='font-bold text-[13px]  tracking-[8px]'>Learn Anywhere</p>
                         </div>
                     </div>

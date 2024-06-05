@@ -91,7 +91,7 @@ const SingleClass = () => {
                       className=" rounded-md object-fut w-full h-full block"
                     />
                   </div>
-                  <h2 className="text-2xl mb-2">UI/UX Design and Graphics Learning Bootcamp 2022</h2>
+                  <h2 className="text-2xl mb-2">TSCZ- PDL</h2>
 
                   <div className="author-meta mt-6 sm:flex  lg:space-x-16 sm:space-x-5 space-y-5 sm:space-y-0 items-center">
                     <div className="flex space-x-4 items-center group">
@@ -144,18 +144,10 @@ const SingleClass = () => {
                           <h3 className=" text-2xl mt-8">Course Description</h3>
                           <p className="mt-4">
                             This tutorial will help you learn quickly and
-                            thoroughly. Lorem ipsum, or lipsum as it sometimes
-                            known, is dummy text used in laying out print,
-                            graphic or web designs. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Donec odio. Quisque
-                            volutpat mattis eros.
+                            thoroughly. 
                             <br /> <br /> You’ll be exposed to principles and
                             strategies, but, more importantly, you’ll learn how
-                            actually apply these abstract concepts by coding
-                            three different websites for three very different
-                            the audiences. Lorem ipsum is dummy text used in
-                            laying out print, graphic or web designs Lorem ipsum
-                            blinding shot chinwag knees.
+                            actually apply these abstract concepts.
                           </p>
                           <div className="bg-[#F8F8F8] dark:bg-indigo-500 space-y-6 p-8 rounded-md my-8">
                             <h4 className=" text-2xl">What You will Learn?</h4>
@@ -165,8 +157,25 @@ const SingleClass = () => {
                                   <img src="/correct-mark.png" alt="" />
                                 </div>
                                 <div className="flex-1">
-                                  Learn how perspective works and how to
-                                  incorporate your art
+                                  Learn how drive safely
+                                </div>
+                              </li>
+
+                              <li className=" flex space-x-3">
+                                <div className="flex-none  relative top-1 ">
+                                  <img src="/correct-mark.png" alt="" />
+                                </div>
+                                <div className="flex-1">
+                                  TSCZ LEARN Here to facilitate your driver journey
+                                </div>
+                              </li>
+
+                              <li className=" flex space-x-3">
+                                <div className="flex-none  relative top-1 ">
+                                  <img src="/correct-mark.png" alt="" />
+                                </div>
+                                <div className="flex-1">
+                                  Learn easy with TSCZ-Learn
                                 </div>
                               </li>
 
@@ -176,27 +185,7 @@ const SingleClass = () => {
                                 </div>
                                 <div className="flex-1">
                                   Learn how perspective works and how to
-                                  incorporate your art
-                                </div>
-                              </li>
-
-                              <li className=" flex space-x-3">
-                                <div className="flex-none  relative top-1 ">
-                                  <img src="/correct-mark.png" alt="" />
-                                </div>
-                                <div className="flex-1">
-                                  Learn how perspective works and how to
-                                  incorporate your art
-                                </div>
-                              </li>
-
-                              <li className=" flex space-x-3">
-                                <div className="flex-none  relative top-1 ">
-                                  <img src="/correct-mark.png" alt="" />
-                                </div>
-                                <div className="flex-1">
-                                  Learn how perspective works and how to
-                                  incorporate your art
+                                  incorporate your skills in driving
                                 </div>
                               </li>
                             </ul>
@@ -217,7 +206,7 @@ const SingleClass = () => {
                                   <img src="/logo.png" alt="" />
                                 </div>
                                 <span className="flex-1 text-black">
-                                  Paper &amp; Pencil
+                                  Paper &amp; Pen
                                 </span>
                               </div>
                               <div className=" bg-white  rounded px-5 py-[18px] flex  shadow-box2 space-x-[10px] items-center">
@@ -236,19 +225,11 @@ const SingleClass = () => {
                         <div>
                           <h3 className=" text-2xl mt-8">Lesson Plan</h3>
                           <p className="mt-4">
-                            This tutorial will help you learn quickly and
-                            thoroughly. Lorem ipsum, or lipsum as it sometimes
-                            known, is dummy text used in laying out print,
-                            graphic or web designs. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit. Donec odio. Quisque
-                            volutpat mattis eros.
+                            This Lectures will help you learn quickly and
+                            thoroughly.
                             <br /> <br /> You’ll be exposed to principles and
                             strategies, but, more importantly, you’ll learn how
-                            actually apply these abstract concepts by coding
-                            three different websites for three very different
-                            the audiences. Lorem ipsum is dummy text used in
-                            laying out print, graphic or web designs Lorem ipsum
-                            blinding shot chinwag knees.
+                            actually apply these abstract concepts.
                           </p>
                           <div className="bg-[#F8F8F8] dark:bg-indigo-500 space-y-6 p-8 rounded-md my-8">
                             <h4 className=" text-2xl">This Course is For Beginners </h4>
@@ -313,7 +294,7 @@ const SingleClass = () => {
                             Duration
                           </div>
                         </div>
-                        <div className="flex-none">2Hr 36Minutes</div>
+                        <div className="flex-none">1Hr 30Minutes</div>
                       </li>
 
                       <li className=" flex space-x-3 border-b border-[#ECECEC] mb-4 pb-4 last:pb-0 past:mb-0 last:border-0">
@@ -343,7 +324,7 @@ const SingleClass = () => {
                             Language
                           </div>
                         </div>
-                        <div className="flex-none">English</div>
+                        <div className="flex-none">English/Shona</div>
                       </li>
                     </ul>
                     <ul className="flex space-x-4 items-center pt-3 ">
@@ -411,7 +392,7 @@ const SingleClass = () => {
                             Greatest Passion In...
                           </div>
                           <span className=" text-secondary font-semibold">
-                            $38.00
+                            $3.00
                           </span>
                         </div>
                       </li>
@@ -430,7 +411,7 @@ const SingleClass = () => {
                             Greatest Passion In...
                           </div>
                           <span className=" text-secondary font-semibold">
-                            $38.00
+                            $3.00
                           </span>
                         </div>
                       </li>
@@ -449,7 +430,7 @@ const SingleClass = () => {
                             Greatest Passion In...
                           </div>
                           <span className=" text-secondary font-semibold">
-                            $38.00
+                            $3.00
                           </span>
                         </div>
                       </li>
